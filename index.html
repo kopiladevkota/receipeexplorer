@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Recipe Explorer</h1>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <main>
+    <section id="search">
+      <input type="text" id="ingredient-input" placeholder="Enter ingredients (e.g., egg, milk)">
+    </section>
+
+    <section id="categories">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="breakfast">Breakfast</button>
+      <button class="filter-btn" data-category="lunch">Lunch</button>
+      <button class="filter-btn" data-category="dinner">Dinner</button>
+      <button class="filter-btn" data-category="dessert">Dessert</button>
+    </section>
+
+    <section id="recipes">
+      <!-- Recipe cards will be dynamically added here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Recipe Explorer. All rights reserved.</p>
+  </footer>
+</body>
+</html>
